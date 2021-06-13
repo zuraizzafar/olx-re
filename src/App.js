@@ -1,9 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import ReactDOM from 'react-dom';
+import Header from './components/header';
 
 function App() {
   return (
     <div>
+      <Header/>
 
     </div>
   );
