@@ -1,5 +1,6 @@
 import About from "./about";
 import Contact from "./contact";
+import Home from "./home";
 import {
     BrowserRouter as Router,
     Switch,
@@ -20,6 +21,9 @@ function Header() {
                     </Route>
                     <Route path="/contact">
                         <Contact />
+                    </Route>
+                    <Route path="/">
+                        <Home />
                     </Route>
                 </Switch>
             </Router>
